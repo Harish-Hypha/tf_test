@@ -40,9 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: ${{ github.ref == 'refs/heads/main' && 'prod' || 'dev' }}
-    env:
-      TF_VAR_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      TF_VAR_secret_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+
 
     steps:
     - name: Checkout
