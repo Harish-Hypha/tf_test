@@ -1,0 +1,5 @@
+aws_region    = "us-east-1"
+ami_id        = "ami-020cba7c55df1f615"
+instance_type = "t2.medium"
+key_name      = "tf_prod"
+project_name  = "tf-prod"
